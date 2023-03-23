@@ -1,0 +1,254 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+p{
+  
+font-family: 'Cinzel', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Play', sans-serif;
+
+}
+
+h4{
+ color: whte;
+font-family: 'Cinzel', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Play', sans-serif;
+
+}
+
+
+h2{
+   
+font-family: 'Cinzel', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Play', sans-serif;
+
+}
+
+h3{
+color: white;
+font-family: 'Cinzel', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Play', sans-serif;
+
+}
+
+
+
+h5{
+font-family: 'Cinzel', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Play', sans-serif;
+
+}
+
+
+h1{
+font-family: 'Cinzel', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Play', sans-serif;
+
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;    
+}
+
+header nav ul li{
+    position: relative;
+    float: left;
+    margin-top: 8px;
+    margin-left: 50px;
+   
+}
+
+  header nav ul li a:hover{
+      color: purple;
+     }
+
+
+.logo{
+   width: 100px;
+   height: 45px;
+   margin-top: 10px;
+   margin-left: 25px;
+}
+
+
+.teg{
+	margin-left: 350px;
+	width: 500px;
+}
+
+.a{
+   color: black;
+   font-family: 'Cinzel', serif;
+   text-decoration: none;
+
+}
+
+.main{ 
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 2300px;
+   width: 100%;
+   background: white;
+}
+
+.registr{
+   height: 25px;
+   width: 150px;
+   margin-left: 150px;
+}
+
+
+.glav{
+	background: white;
+	margin-top: 60px;
+	height: 1000px;
+	width: 100%;
+}
+
+
+.banner{
+   height: 600px;
+   width: 98%;
+   margin-top: 120px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+.slogan{
+   height: 650px;
+   width: 100%;
+   background: black;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+/*новости*/
+.news{
+   height: 500px;
+   width: 80%;
+   margin-top: 10px;
+   background: #c78fe3;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/*обсуждения*/
+.discussion{
+   height: 800px;
+   width: 90%;
+   border-radius: 10px;
+   margin-top: 70px;
+   background: black;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+.events{
+   border-radius: 10px;
+   height: 500px;
+   width: 90%;
+   display: flex;
+   margin-top: 10px;
+   background: white;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+ @media screen and (max-width: 800px) {
+ 
+header {
+    width: 800px;
+    height: 60px;
+}
+
+
+header nav ul li{
+    position: relative;
+    float: left;
+    margin-top: 8px;
+    margin-left: 30px;
+   
+}
+
+
+.lightdark{
+   height: 25px;
+   width: 25px;
+   margin-left: 120px;
+}
+
+
+/*новости*/
+.news{
+   height: 250px;
+   width: 60%;
+   margin-top: 10px;
+}
+
+/*обсуждения*/
+.discussion{
+   height: 250px;
+   width: 60%;
+   margin-top: 10px;
+}
+
+
+.events{
+   height: 250px;
+   width: 90%;
+   margin-top: 10px;
+   background: #c78fe3;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.glav{
+   margin-top: 60px;
+   height: 500px;
+   width: 100%;
+}
+
+
+.main{ 
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 2000px;
+   width: 100%;
+}
+
+.logo{
+   width: 80px;
+}
+
+.teg{
+   background: white;
+   margin-left: 20px;
+   width: 450px;
+}
+
+.banner{
+   height: 400px;
+   width: 750px;
+  }
+ }
